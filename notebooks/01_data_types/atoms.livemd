@@ -1,0 +1,51 @@
+# Learning Elixir
+
+## Atoms
+
+```elixir
+value = :atom
+
+is_atom(value)
+```
+
+```elixir
+value = false
+
+is_atom(value)
+```
+
+```elixir
+is_atom(:ok)
+is_atom(:error)
+```
+
+```elixir
+value = 'String'
+
+is_atom(value)
+```
+
+```elixir
+value = :String
+
+is_atom(value)
+```
+
+```elixir
+:math.pi()
+```
+
+## Boolean
+
+```elixir
+definition =
+  "A Boolean is either the atom true or the atom false. The atom nil evaluates to false in control flow."
+
+{:ok, definition}
+```
+
+```elixir
+IO.puts("true? #{is_boolean(true)}")
+IO.puts("\"true\"? #{is_boolean("true")}")
+IO.puts("false? #{is_boolean(false)}")
+```
