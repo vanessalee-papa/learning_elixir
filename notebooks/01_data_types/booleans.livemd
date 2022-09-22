@@ -1,0 +1,37 @@
+# Learning Elixir: Booleans
+
+## Booleans
+
+This notebook contains functions for learning about the Boolean data type.
+
+Variable names can include uppercase or lowercase letters, underscores, or numbers,
+but they must start with a lowercase letter or an underscore.
+
+Variables are immutable. Once a variable is bound, it cannot change. It can only be rebound.
+
+<!-- livebook:{"break_markdown":true} -->
+
+#### Define
+
+A Boolean is either the atom true or the atom false. The atom nil evaluates to false in control flow.
+
+The Kernel function `is_boolean` will return true if the argument it receives
+is a boolean.
+
+```elixir
+is_boolean(true)
+```
+
+```elixir
+is_boolean("true")
+```
+
+```elixir
+is_boolean(false)
+```
+
+`nil` is Elixir's null.
+
+```elixir
+is_boolean(nil)
+```

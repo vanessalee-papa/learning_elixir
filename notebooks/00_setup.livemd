@@ -1,0 +1,49 @@
+# Learning Elixir: Set Up
+
+## Docker
+
+Download Docker Desktop if you don't already have it. Here is the [download](https://docs.docker.com/desktop/mac/apple-silicon/) for Apple MacBook the the M1 chip.
+
+## Clone Repo
+
+Clone the `backend` [repository](https://github.com/joinpapa/backend) from github if you don't already have it.
+
+<!-- livebook:{"break_markdown":true} -->
+
+```
+git clone https://github.com/joinpapa/backend
+```
+
+<!-- livebook:{"break_markdown":true} -->
+
+If you already have the repository, pull down the latest from the `main` branch.
+
+<!-- livebook:{"break_markdown":true} -->
+
+```
+git pull origin main
+```
+
+## Run
+
+Open the Terminal app and run the repository in Docker using the command below.
+
+<!-- livebook:{"break_markdown":true} -->
+
+```
+make dev
+```
+
+<!-- livebook:{"break_markdown":true} -->
+
+Watch the terminal messages. Livebook is running when you see message below.
+
+<!-- livebook:{"break_markdown":true} -->
+
+```
+livebook_1  | [Livebook] Application running at http://0.0.0.0:8080/?token=xyz
+```
+
+<!-- livebook:{"break_markdown":true} -->
+
+Copy the url including the token and paste it in a browser. Your token will be different than the example.

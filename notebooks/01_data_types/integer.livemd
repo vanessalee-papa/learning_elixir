@@ -1,0 +1,45 @@
+# Learning Elixir: Integers
+
+## Integers
+
+This module contains functions for learning about the Integer and Float data types.
+
+Variable names can include uppercase or lowercase letters, underscores, or numbers,
+but they must start with a lowercase letter or an underscore.
+
+Variables are immutable. Once a variable is bound, it cannot change. It can only be rebound.
+
+## Use
+
+The Kernel function `is_integer` will return true if the argument it receives
+is an integer
+
+Large numbers are separated by the underscore to improve readability. For example,
+1000000 becomes 1_000_000
+
+```elixir
+is_integer(1)
+```
+
+```elixir
+is_integer(234)
+```
+
+```elixir
+is_integer(567_890)
+```
+
+The Kernel function `is_float` will return true if the argument it receives
+is a float.
+
+Floats are a sequence of digits that contain a dot and at least one other digit after the dot.
+
+Floats can also be written in scientific notation.
+
+```elixir
+is_float(1.23)
+```
+
+```elixir
+is_float(123.4e5)
+```
